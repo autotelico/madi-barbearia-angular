@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { PeopleDisplayComponent } from './people-display/people-display.component';
 import { UpperCasePipe } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
+import { CatalogComponent } from './catalog/catalog.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +18,8 @@ import { HeaderComponent } from './header/header.component';
     UpperCasePipe,
     // components
     HeaderComponent,
+    CatalogComponent,
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

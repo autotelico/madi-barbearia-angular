@@ -1,0 +1,13 @@
+<div id="catalog-container" class="w-[300px] sm:w-[500px] mx-auto bg-black text-[#F0A629] rounded-xl">
+    <h2 class="text-5xl font-bold uppercase text-center my-5">Nossos cortes</h2>
+    <div>
+        @for (haircut of haircutOptions; track haircut.id) {
+            <div class="w-[500px] grid grid-cols-[40%_60%] bg-purple-500">
+                <img class="" src={{haircut.image}} alt={{haircut.name}}>
+                <div>
+                    <h3>{{haircut.name}}</h3>
+                </div>
+            </div>
+        }
+    </div>
+</div>
