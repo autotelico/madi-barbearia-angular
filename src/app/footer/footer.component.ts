@@ -9,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
   author = 'Henrique Heron';
+  openGitHub() {
+    window.open('https://github.com/autotelico')
+  }
+  openLinkedIn() {
+    window.open('https://www.linkedin.com/in/henrique-mag/')
+  }
 }

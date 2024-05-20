@@ -1,10 +1,12 @@
 <!-- see if absolute bottom-0 works. Else, remove it -->
-<footer class="absolute bottom-0 bg-black text-white w-full h-[150px] flex justify-center items-center">
+<footer class="bg-orange-500 text-white w-full h-[150px] flex justify-center items-center">
     <div class="text-3xl flex flex-col gap-3 text-center">
         <p>Desenvolvido por</p>
         <p class="font-semibold">{{author}}</p>
-        <div>
-            
+        <div class="flex justify-evenly items-center">
+            <img class="h-[50px]" src="../../assets/github-logo.svg" alt="github" (click)="openGitHub()">
+            <img class="h-[50px]" src="../../assets/linkedin-logo.ico" alt="linkedin" (click)="openLinkedIn()">
+            <img class="h-[50px]" src="../../assets/email-logo.svg" alt="email" href="mailto:zeca@gmail.com">
         </div>
     </div>
 </footer>

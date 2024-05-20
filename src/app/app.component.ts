@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { PeopleDisplayComponent } from './people-display/people-display.component';
 import { UpperCasePipe } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { CatalogComponent } from './catalog/catalog.component';
@@ -14,7 +13,6 @@ import { FooterComponent } from './footer/footer.component';
     // NgModules
     RouterOutlet,
     FormsModule,
-    PeopleDisplayComponent,
     UpperCasePipe,
     // components
     HeaderComponent,
